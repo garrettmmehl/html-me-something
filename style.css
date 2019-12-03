@@ -1,0 +1,103 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font: 70px "Trajan Pro Regular", "Trajan Pro Bold", "Perpetua", Helvetica, Arial;
+    text-align: center;
+}
+
+h2 {
+    font: 60px "Trajan Pro Regular", "Trajan Pro Bold", "Perpetua", Helvetica, Arial;
+    text-align: center;
+}
+
+h3 {
+    font: 35px "Trajan Pro Regular", "Trajan Pro Bold", "Perpetua", Helvetica, Arial;
+    text-align: center;
+}
+
+p {
+    font: 20px "Trajan Pro Regular", "Trajan Pro Bold", "Perpetua", Helvetica, Arial;
+}
+
+ul > li {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    font: 40px "Trajan Pro Regular", "Trajan Pro Bold", "Perpetua", Helvetica, Arial;
+    text-align: center;
+    margin-left: 15%;
+}
+
+a {
+    color: gray;
+}
+
+a:visited {
+    color: white;
+}
+
+section {
+    margin: auto;   
+    padding: 25px 0px 25px 0px;
+}
+
+footer {
+    font: 12px "Trajan Pro Regular", "Trajan Pro Bold", "Perpetua", Helvetica, Arial;
+    text-align: center;
+}
+
+#header-text {
+    margin-right: 20%;
+    margin-left: 20%;
+    text-align: center;
+}
+
+#big-img {
+    height: 200px;
+    width: auto;
+}
+
+#center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-left {
+    float: left;
+    background-color: gray;
+    margin-left: 20%;
+}
+
+.image-right {
+    float: right;
+    background-color: gray;
+    margin-right: 20%;
+}
+
+.text-right {
+    margin-right: 20%;
+    border-image-outset: 1 0 1 0;
+    height: 150px;
+    padding: 25px;
+    width: auto;
+    overflow-wrap: normal;
+    font-size: 20px;
+    color:#c3c3c3;
+    text-align: center;
+}
+
+.text-left {
+    margin-left: 20%;
+    border-image-outset: 1 0 1 0;
+    height: 150px;
+    padding: 25px;
+    width: auto;
+    overflow-wrap: normal;
+    font-size: 20px;
+    color:#c3c3c3;
+    text-align: center;
+}
